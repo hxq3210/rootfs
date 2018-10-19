@@ -1,0 +1,296 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADCCON	include/adc.h	11;"	d
+ADCDAT	include/adc.h	13;"	d
+ADCDLY	include/adc.h	12;"	d
+ADCIRQ_ID	adc.c	83;"	d	file:
+ADCMUX	include/adc.h	15;"	d
+ASM	Makefile	/^ASM		:= start.o$/;"	m
+AUTOMATIC_WDT_RESET_DISABLE	wdt.c	20;"	d	file:
+BIN	Makefile	/^BIN  		:= $(TARGET).bin	$/;"	m
+CC	Makefile	/^CC		:= $(CROSS_COMPILE)gcc$/;"	m
+CLK_DIV_LCD	include/lcd.h	97;"	d
+CLK_SRC_LCD0	include/lcd.h	98;"	d
+CLRINTADC	include/adc.h	14;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE	:= arm-linux-$/;"	m
+DEFINE_DO_SVC	do_excep.c	3;"	d	file:
+END	include/backlight.h	14;"	d
+GPA0CON	include/uart.h	6;"	d
+GPD0CON	include/timer.h	25;"	d
+GPF0CON	include/lcd.h	7;"	d
+GPF1CON	include/lcd.h	8;"	d
+GPF2CON	include/lcd.h	9;"	d
+GPF3CON	include/lcd.h	10;"	d
+GPM4CON	include/led.h	6;"	d
+GPM4DAT	include/led.h	7;"	d
+GPX1CON	include/backlight.h	7;"	d
+GPX1DAT	include/backlight.h	6;"	d
+GPX3CON	include/key.h	6;"	d
+GPX3DAT	include/key.h	7;"	d
+ICCEOIR_CPU0	include/irq.h	9;"	d
+ICCIAR_CPU0	include/irq.h	8;"	d
+ICCICR_CPU0	include/irq.h	6;"	d
+ICCPMR_CPU0	include/irq.h	7;"	d
+ICDDCR	include/irq.h	10;"	d
+ICDIPR0_CPU0	include/irq.h	12;"	d
+ICDIPTR0_CPU0	include/irq.h	13;"	d
+ICDISER0_CPU0	include/irq.h	14;"	d
+IESR2	adc.c	68;"	d	file:
+LAOMI_LCD_H_	include/lcd.h	2;"	d
+LCDBLK_CFG	include/lcd.h	12;"	d
+LD	Makefile	/^LD		:= $(CROSS_COMPILE)ld$/;"	m
+LDADD	Makefile	/^LDADD		:= 0x50000000$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS		:= -lgcc -L\/opt\/FriendlyARM\/toolschain\/4.5.1\/lib\/gcc\/arm-none-linux-gnueabi\/4.5.1\/$/;"	m
+LIMIT_DOWN	timer.c	8;"	d	file:
+LIMIT_UP	timer.c	7;"	d	file:
+MAKE_COL	include/lcd.h	91;"	d
+MASK_WDT_RESET_REQUEST	wdt.c	21;"	d	file:
+MILLET_ADC_H_	include/adc.h	2;"	d
+MILLET_IRQ_H_	include/irq.h	2;"	d
+MILLET_MMU_H_	include/mmu.h	2;"	d
+MILLET_PWM_H	include/pwm.h	2;"	d
+MILLET_TIMER_H_	include/timer.h	2;"	d
+MILLET_VECTOR_H_	include/vector.h	2;"	d
+MILLET_WDT_H_	include/wdt.h	2;"	d
+NM	Makefile	/^NM		:= $(CROSS_COMPILE)nm$/;"	m
+OBJCOPY	Makefile	/^OBJCOPY		:= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP		:= $(CROSS_COMPILE)objdump$/;"	m
+OBJS	Makefile	/^OBJS		:= entry.o lib.o$/;"	m
+PWM_BASE	include/pwm.h	8;"	d
+REQUEST	include/backlight.h	13;"	d
+SHADOWCON	include/lcd.h	28;"	d
+START	include/backlight.h	12;"	d
+SZ	include/lcd.h	100;"	d
+T	include/mmu.h	11;"	d
+TARGET	Makefile	/^TARGET		:= arm$/;"	m
+TCFG0	include/pwm.h	10;"	d
+TCFG0	include/timer.h	6;"	d
+TCFG1	include/pwm.h	11;"	d
+TCFG1	include/timer.h	7;"	d
+TCMPB0	include/pwm.h	14;"	d
+TCMPB0	include/timer.h	10;"	d
+TCMPB1	include/pwm.h	17;"	d
+TCMPB1	include/timer.h	13;"	d
+TCMPB2	include/pwm.h	20;"	d
+TCMPB2	include/timer.h	16;"	d
+TCMPB3	include/pwm.h	23;"	d
+TCMPB3	include/timer.h	19;"	d
+TCNTB0	include/pwm.h	13;"	d
+TCNTB0	include/timer.h	9;"	d
+TCNTB1	include/pwm.h	16;"	d
+TCNTB1	include/timer.h	12;"	d
+TCNTB2	include/pwm.h	19;"	d
+TCNTB2	include/timer.h	15;"	d
+TCNTB3	include/pwm.h	22;"	d
+TCNTB3	include/timer.h	18;"	d
+TCNTB4	include/pwm.h	25;"	d
+TCNTB4	include/timer.h	21;"	d
+TCNTO0	include/pwm.h	15;"	d
+TCNTO0	include/timer.h	11;"	d
+TCNTO1	include/pwm.h	18;"	d
+TCNTO1	include/timer.h	14;"	d
+TCNTO2	include/pwm.h	21;"	d
+TCNTO2	include/timer.h	17;"	d
+TCNTO3	include/pwm.h	24;"	d
+TCNTO3	include/timer.h	20;"	d
+TCNTO4	include/pwm.h	26;"	d
+TCNTO4	include/timer.h	22;"	d
+TCON	include/pwm.h	12;"	d
+TCON	include/timer.h	8;"	d
+TIMER0_ID	timer.c	102;"	d	file:
+TIMER4_ID	timer.c	164;"	d	file:
+TINT_CSTAT	include/pwm.h	27;"	d
+TINT_CSTAT	include/timer.h	23;"	d
+TINY4412_KEY_H_	include/key.h	2;"	d
+TINY4412_LED_H_	include/led.h	2;"	d
+TINY4412_LIB_H_	include/lib.h	2;"	d
+TINY4412_UART_H_	include/uart.h	2;"	d
+UBRDIVn	include/uart.h	18;"	d
+UCONn	include/uart.h	9;"	d
+UERSTATn	include/uart.h	13;"	d
+UFCONn	include/uart.h	10;"	d
+UFRACVALn	include/uart.h	19;"	d
+UFSTATn	include/uart.h	14;"	d
+UINTMn	include/uart.h	22;"	d
+UINTPn	include/uart.h	20;"	d
+UINTSPn	include/uart.h	21;"	d
+ULCONn	include/uart.h	8;"	d
+UMCONn	include/uart.h	11;"	d
+UMSTATn	include/uart.h	15;"	d
+URXHn	include/uart.h	17;"	d
+USPERSEC	timer.c	6;"	d	file:
+UTRSTATn	include/uart.h	12;"	d
+UTXHn	include/uart.h	16;"	d
+VECTOR_BASE	include/mmu.h	12;"	d
+VIDCON0	include/lcd.h	15;"	d
+VIDCON1	include/lcd.h	16;"	d
+VIDCON2	include/lcd.h	17;"	d
+VIDCON3	include/lcd.h	18;"	d
+VIDINTCON0	include/lcd.h	82;"	d
+VIDINTCON1	include/lcd.h	83;"	d
+VIDOSD0A	include/lcd.h	30;"	d
+VIDOSD0B	include/lcd.h	31;"	d
+VIDOSD0C	include/lcd.h	32;"	d
+VIDOSD1A	include/lcd.h	33;"	d
+VIDOSD1B	include/lcd.h	34;"	d
+VIDOSD1C	include/lcd.h	35;"	d
+VIDOSD1D	include/lcd.h	36;"	d
+VIDOSD2A	include/lcd.h	37;"	d
+VIDOSD2B	include/lcd.h	38;"	d
+VIDOSD2C	include/lcd.h	39;"	d
+VIDOSD2D	include/lcd.h	40;"	d
+VIDOSD3A	include/lcd.h	41;"	d
+VIDOSD3B	include/lcd.h	42;"	d
+VIDOSD3C	include/lcd.h	43;"	d
+VIDOSD4A	include/lcd.h	44;"	d
+VIDOSD4B	include/lcd.h	45;"	d
+VIDOSD4C	include/lcd.h	46;"	d
+VIDTCON0	include/lcd.h	19;"	d
+VIDTCON1	include/lcd.h	20;"	d
+VIDTCON2	include/lcd.h	21;"	d
+VIDTCON3	include/lcd.h	22;"	d
+VIDW00ADD0B0	include/lcd.h	47;"	d
+VIDW00ADD0B1	include/lcd.h	48;"	d
+VIDW00ADD0B2	include/lcd.h	49;"	d
+VIDW00ADD1B0	include/lcd.h	62;"	d
+VIDW00ADD1B1	include/lcd.h	63;"	d
+VIDW00ADD1B2	include/lcd.h	64;"	d
+VIDW00ADD2	include/lcd.h	77;"	d
+VIDW01ADD0B0	include/lcd.h	50;"	d
+VIDW01ADD0B1	include/lcd.h	51;"	d
+VIDW01ADD0B2	include/lcd.h	52;"	d
+VIDW01ADD1B0	include/lcd.h	65;"	d
+VIDW01ADD1B1	include/lcd.h	66;"	d
+VIDW01ADD1B2	include/lcd.h	67;"	d
+VIDW01ADD2	include/lcd.h	78;"	d
+VIDW02ADD0B0	include/lcd.h	53;"	d
+VIDW02ADD0B1	include/lcd.h	54;"	d
+VIDW02ADD0B2	include/lcd.h	55;"	d
+VIDW02ADD1B0	include/lcd.h	68;"	d
+VIDW02ADD1B1	include/lcd.h	69;"	d
+VIDW02ADD1B2	include/lcd.h	70;"	d
+VIDW02ADD2	include/lcd.h	79;"	d
+VIDW03ADD0B0	include/lcd.h	56;"	d
+VIDW03ADD0B1	include/lcd.h	57;"	d
+VIDW03ADD0B2	include/lcd.h	58;"	d
+VIDW03ADD1B0	include/lcd.h	71;"	d
+VIDW03ADD1B1	include/lcd.h	72;"	d
+VIDW03ADD1B2	include/lcd.h	73;"	d
+VIDW03ADD2	include/lcd.h	80;"	d
+VIDW04ADD0B0	include/lcd.h	59;"	d
+VIDW04ADD0B1	include/lcd.h	60;"	d
+VIDW04ADD0B2	include/lcd.h	61;"	d
+VIDW04ADD1B0	include/lcd.h	74;"	d
+VIDW04ADD1B1	include/lcd.h	75;"	d
+VIDW04ADD1B2	include/lcd.h	76;"	d
+VIDW04ADD2	include/lcd.h	81;"	d
+W1KEYCON0	include/lcd.h	84;"	d
+W1KEYCON1	include/lcd.h	85;"	d
+WDTIRQ	wdt.c	37;"	d	file:
+WIN0FRAMBUF0	include/lcd.h	94;"	d
+WIN1FRAMBUF0	include/lcd.h	95;"	d
+WINCHMAP2	include/lcd.h	29;"	d
+WINCON0	include/lcd.h	23;"	d
+WINCON1	include/lcd.h	24;"	d
+WINCON2	include/lcd.h	25;"	d
+WINCON3	include/lcd.h	26;"	d
+WINCON4	include/lcd.h	27;"	d
+WTCLRINT	include/wdt.h	9;"	d
+WTCNT	include/wdt.h	8;"	d
+WTCON	include/wdt.h	6;"	d
+WTDAT	include/wdt.h	7;"	d
+__BACKLIGHT_H	include/backlight.h	2;"	d
+_data_abort	start.S	/^_data_abort		: .word data_abort$/;"	l
+_end	start.S	/^_end:$/;"	l
+_end_add	start.S	/^_end_add	: .word _end$/;"	l
+_fiq_excep	start.S	/^_fiq_excep		: .word fiq_excep$/;"	l
+_irq_excep	start.S	/^_irq_excep		: .word irq_excep$/;"	l
+_prefetch_abort	start.S	/^_prefetch_abort		: .word prefetch_abort$/;"	l
+_start	start.S	/^_start:$/;"	l
+_start_add	start.S	/^_start_add	: .word _start$/;"	l
+_svc_excep	start.S	/^_svc_excep		: .word svc_excep$/;"	l
+_undef_instruction	start.S	/^_undef_instruction	: .word undef_instruction$/;"	l
+adc_irq_init	adc.c	/^void adc_irq_init(void)$/;"	f
+adc_polling_init	adc.c	/^void adc_polling_init(void)$/;"	f
+adc_read_by_polling	adc.c	/^u32 adc_read_by_polling(void)$/;"	f
+adc_startup	adc.c	/^void adc_startup(void)$/;"	f
+change_win0_add	lcd.c	/^void change_win0_add(u32 add)$/;"	f
+crc8	include/backlight.h	10;"	d
+crc8_init	include/backlight.h	9;"	d
+crc8_tab	backlight.c	/^static const unsigned char crc8_tab[] = {$/;"	v	file:
+create_excep_vector_table	vector.c	/^void create_excep_vector_table(void)$/;"	f
+data_abort	start.S	/^data_abort:$/;"	l
+do_adc	adc.c	/^void do_adc(void)$/;"	f
+do_data_abt	do_excep.c	/^void do_data_abt(void)$/;"	f
+do_irq	irq.c	/^void do_irq(void)$/;"	f
+do_prefetch_abt	do_excep.c	/^void do_prefetch_abt(void)$/;"	f
+do_svc	do_excep.c	/^void do_svc(u32 num)$/;"	f
+do_timer0	timer.c	/^void do_timer0(void)$/;"	f
+do_timer4	timer.c	/^void do_timer4(void)$/;"	f
+do_unde	do_excep.c	/^void do_unde(void)$/;"	f
+do_wdt	wdt.c	/^void do_wdt(void)$/;"	f
+draw_point	lcd.c	/^void draw_point(int x, int y, int col, int win)$/;"	f
+entry	entry.c	/^void entry(void)$/;"	f
+fiq_excep	start.S	/^fiq_excep:$/;"	l
+flag	timer.c	/^int flag = 1;$/;"	v
+freq	timer.c	/^int freq;$/;"	v
+gic_cpu0_init	irq.c	/^void gic_cpu0_init(u32 irqid, int level, handler_t handler)$/;"	f
+handler_t	include/irq.h	/^typedef void (*handler_t)(void);$/;"	t
+io_bit_count	backlight.c	/^static int io_bit_count;$/;"	v	file:
+io_data	backlight.c	/^static int io_data;$/;"	v	file:
+irq_excep	start.S	/^irq_excep:$/;"	l
+isr	irq.c	/^static handler_t isr[160];$/;"	v	file:
+itoa	uart.c	/^void itoa(int n, char *buf)$/;"	f
+key_check_downup	key.c	/^int key_check_downup(void)$/;"	f
+key_init	key.c	/^void key_init(void)$/;"	f
+lcd_gpio_set	lcd.c	/^static void lcd_gpio_set(void)$/;"	f	file:
+lcd_init	lcd.c	/^void lcd_init(void)$/;"	f
+led_init	led.c	/^void led_init(void)$/;"	f
+led_off	led.c	/^void led_off(int n)$/;"	f
+led_on	led.c	/^void led_on(int n)$/;"	f
+mmu_create_descriptor	include/mmu.h	6;"	d
+mmu_enable	mmu.c	/^void mmu_enable(u32 *t)$/;"	f
+mmu_init	mmu.c	/^void mmu_init(u32 *t)$/;"	f
+mmu_section_map	mmu.c	/^void mmu_section_map(u32 *t, u32 vadd_s, u32 vadd_e, u32 padd)$/;"	f
+mymemcpy	lib.c	/^void *mymemcpy(void *dest, const void *src, u32 n)$/;"	f
+pic_num	timer.c	/^int pic_num;$/;"	v
+prefetch_abort	start.S	/^prefetch_abort:$/;"	l
+printf	include/lib.h	16;"	d
+pwm0_init	timer.c	/^void pwm0_init(u32 hz)$/;"	f
+raise	lib.c	/^int raise(void)$/;"	f
+read16	lib.c	/^u16 read16(u32 reg)$/;"	f
+read32	lib.c	/^u32 read32(u32 reg)$/;"	f
+read8	lib.c	/^u8 read8(u32 reg)$/;"	f
+reset	start.S	/^reset:	$/;"	l
+set_backlight_start	backlight.c	/^void set_backlight_start(int backlight)$/;"	f
+set_gpx1_2_high	backlight.c	/^void set_gpx1_2_high(void)$/;"	f
+set_gpx1_2_low	backlight.c	/^void set_gpx1_2_low(void)$/;"	f
+set_hz	timer.c	/^void set_hz(u32 hz)$/;"	f
+stop_timer1	pwm.c	/^void stop_timer1(void)$/;"	f
+svc_excep	start.S	/^svc_excep:$/;"	l
+timer1_init	pwm.c	/^void timer1_init(int cycle)$/;"	f
+timer4_init	timer.c	/^void timer4_init(u32 us)$/;"	f
+u16	include/lib.h	/^typedef unsigned short u16;$/;"	t
+u32	include/lib.h	/^typedef unsigned int u32;$/;"	t
+u8	include/lib.h	/^typedef unsigned char u8;$/;"	t
+uart0_init	uart.c	/^void uart0_init(void)$/;"	f
+udelay	include/lib.h	15;"	d
+ugetchar	uart.c	/^int ugetchar(void)$/;"	f
+ugets	uart.c	/^char *ugets(char *buf)$/;"	f
+undef_instruction	start.S	/^undef_instruction:$/;"	l
+uprintf	uart.c	/^void uprintf(const char *fmt, ...)$/;"	f
+uputchar	uart.c	/^void uputchar(int ch)$/;"	f
+uputs	uart.c	/^void uputs(const char *buf)$/;"	f
+wait_adc_end	adc.c	/^void wait_adc_end(void)$/;"	f
+wait_timeout	backlight.c	/^void wait_timeout(void)$/;"	f
+wdt_init_reset	wdt.c	/^void wdt_init_reset(int s)$/;"	f
+wdt_init_timer	wdt.c	/^void wdt_init_timer(int s)$/;"	f
+window0_init	lcd.c	/^static void window0_init(void)$/;"	f	file:
+write16	lib.c	/^void write16(u16 val, u32 reg)$/;"	f
+write32	lib.c	/^void write32(u32 val, u32 reg)$/;"	f
+write8	lib.c	/^void write8(u8 val, u32 reg)$/;"	f
+xtoa	uart.c	/^void xtoa(int n, char *buf)$/;"	f
